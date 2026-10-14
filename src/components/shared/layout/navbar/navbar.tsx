@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import RevealAnimation from '@/src/components/animation/reveal-animation';
 import MobileMenu from '@/src/components/shared/layout/mobile-menu/mobile-menu';
@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <header
       className={cn(
-        'lp:max-w-[1290px]! fixed top-5 left-1/2 z-50 mx-auto w-full max-w-[350px] -translate-x-1/2 transition-all duration-400 ease-in-out min-[425px]:max-w-[375px] min-[500px]:max-w-[450px] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px]',
+        'lp:max-w-[1440px]! fixed top-5 left-1/2 z-50 mx-auto w-full max-w-[350px] -translate-x-1/2 transition-all duration-400 ease-in-out min-[425px]:max-w-[375px] min-[500px]:max-w-[450px] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px]',
         scroll.isScrolled && 'top-2'
       )}
       onMouseLeave={() => setMenuDropdownId(null)}
@@ -119,3 +119,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

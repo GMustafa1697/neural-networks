@@ -1,4 +1,4 @@
-/* =========== GLOBAL STYLES ========== */
+﻿/* =========== GLOBAL STYLES ========== */
 
 body {
   @apply font-inter-tight antialiased;
@@ -19,7 +19,7 @@ body {
 /* ========== CONTAINER ========== */
 
 @utility main-container {
-  @apply lp:px-0 mx-auto max-w-[1290px] px-5;
+  @apply lp:px-0 mx-auto max-w-[1440px] px-5;
 }
 
 @utility main-container-v2 {
@@ -272,7 +272,7 @@ dialog.modal-overlay.modal-close {
   }
 }
 
-/* Navbar CTA — button v2 (matches eComSmiths header) */
+/* Navbar CTA â€” button v2 (matches eComSmiths header) */
 @utility btn-md-v2 {
   @apply text-tagline-1 min-w-[90px] px-5 py-2.5;
   .btn-v2-icon {
@@ -293,3 +293,4 @@ dialog.modal-overlay.modal-close {
     @apply fill-white;
   }
 }
+
